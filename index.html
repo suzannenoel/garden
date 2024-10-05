@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<style> .responsive-img {
+    
+    width: 50%;
+    max-width: 100px;
+    height: auto;
+  }
+  </style>
+
+<style nav.badge {
+             position: relative; .responsive-img;
+             top: 20px;
+             right: 25px;
+}
+
+
+<title>Materialize CSS</title>
+</head>
+</style>
+<body class="grey lighten-4">
+    <header><!--Nav bar for bigger screens-->
+    <nav class="z-depth-0 blue lighten-4">
+        <div class="nav-wrapper container" ></div>
+        </nav>
+
+    <a href="/" data-target="mobile-menu"
+    class="brand-logo blue-text text-darken-2"
+    aria-label="Task Manager Home"
+    >
+    Task Manager</a>
+    <!--Hamburger menu for medium and small screens-->
+    <main> 
+    <nav class="nav-wraper blue">
+    <div class="tasks container grey-text text-darken-4">
+        <div class="card-panel white row valign-wrapper"></div>
+        <div class="col s2 right-align"></div>
+        <button class="task-delete btn-flat" aria-label="Delete Task">
+            <i class="material-icons black-text-darken-1">delete_outline</i>
+            </button>
+            </div>
+            </div>
+        <a href="#" class="brand-logo">Title</a>
+        <a href="#" class="sidenav-trigger right-hide-on-med-and-up black-text" 
+        data-target="mobile-menu"></a>
+           <i class="material-icons">menu</i></a>
+           <!--Navbar Links for large screens-->
+        <ul class="right hide-on-med-and-down">
+            <li><a href="/" class="waves-effect grey-text text-darken-4">Home</a></li>
+            <li><a href="/" class="waves-effect grey-text text-darken-4">About</a></li>
+            <li><a href="/" class="waves-effect grey-text text-darken-4">Contact</a></li>
+            <li><a href="/" class="btn-floating orange darken-1 z-depth-0">Login</a></li>
+            <i class="material-icons">notifications</i>
+             <li><span class="badge white-text black new">5</span></li>
+        </ul>
+    </div>
+    </nav>
+         <ul class="sidenav" id="mobile-links">
+            <li><a href="/">Home</a>
+                </li>
+            <li><a href="/pages/about.html">About</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+            <li><a href="#">Login</a></li></li>
+         </ul></main></body>
+</header>
+<aside>
+    <ul class="sidenav" id="mobile-menu">
+     <li><a class="subheader">Task Manager</a></li>
+     <li><a href="/" class="waves-effect grey-text text-darken-4">Home</a></li>
+            <li><a href="/" class="waves-effect grey-text text-darken-4">About</a></li>
+            <li><a href="/" class="waves-effect grey-text text-darken-4"><i class="material-icons">mail_outline</i>Contact</a></li>
+            <li><a href="/" class="btn-floating orange darken-1 z-depth-0">Login</a></li>
+            <i class="material-icons">notifications</i>
+        
+    
+
+    </ul>
+    </aside>
+    <main><!--Tasks-->
+<div class="tasks container grey-text text-darken-4"></div>
+    <div class="card-panel white row valign-wrapper"></div>
+      <div class="col s2"><img src="css/img/img/garden.png" class="circle responsive-img" alt="Task Icon"/>
+        
+        
+        </div>
+        <div class="task.details col s8">
+            <h5 class="task-title black-text">Gardening</h5>
+            <div class=".task-description">Lorem10 ipsum dolor sit amet consectetur adipisicing elit. Molestias pariatur,
+                 voluptas obcaecati. Quam deserunt enim assumenda quod quo? Sapiente repellendus quas, tempore temporibus,
+                  culpa distinctio. Dicta odio debitis consectetur consequatur.
+                  <p This is where I add information about gardening/p>
+                        
+            </div>
+        </div>
+<div class="col s2 right-align">
+    <button class="task-delete btn-flat" aria-label="Delete Task"><i class="material-icons grey-text text-darken-4">delete_outline</i></button>
+</div>
+  <div class="center">                
+    <button class="btn-floating blue btn large text-darken-2 sidenav-trigger data-target="side-form"><i class="material-icons">add</i></button>
+    </div>
+    <div class="sidenav side-form" id="side-form">
+    <form task="add-task container section">
+        <h6>Add New Task</h6>
+        
+        
+        <div class="divider"></div>
+            <div class="input-field"></div>
+            <label for="title" class="black-text">Task Title</label>
+            <input type="text" placeholder="Enter Task Title" 
+            id="title" class="validate"></>
+        </div> 
+        <div class="input-field"></div>
+        <label for="description" class="black-text">Task Description</label>
+        <input type="text" placeholder="Enter Task Description" 
+        id="description" class="validate"></>
+    </div>
+    <div class="input-field center">
+        <button type="button" class="btn-floating blue darken-2"></button>
+        Add
+    </div>
+
+    </form>
+    </div>
+
+    </main>
+    <script src="/js/materialize.min.js"</script>
+    <script src="/materialize/js/ui.js"</script>
+
+<p Add something about gardening here </p>
+    
+    </body>
+        
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script
+<!--Jquery-->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    })
+</script>
+
+
+    
+       
+       
+
+
+
+</body>
+</html>
