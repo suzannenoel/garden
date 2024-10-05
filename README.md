@@ -2,7 +2,8 @@
   <a href="http://materializecss.com/">
     <img src="http://materializecss.com/res/materialize.svg" width="150">
   </a>
-  <p am including this README as part of my assignment. I'm not sure how to construct one apart from the one that's provided here.</p>
+  <p am including this README as part of my assignment. I'm not sure how to construct one apart from the one that's provided here.
+  This file will contain more information later.</p>
 </p>
 
 <h3 align="center">MaterializeCSS</h3>
